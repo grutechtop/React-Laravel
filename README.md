@@ -6,11 +6,3 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-## About Product Application
-
-![alt text]('/client/assets/1.png')
-![alt text](/2.png)
-![alt text](/3.png)
-![alt text](/4.png)
-![alt text](/5.png)
