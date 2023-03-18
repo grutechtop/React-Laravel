@@ -19,12 +19,12 @@ export default function Products() {
     setIsOpen(false)
   }
 
-  const handleSubmit = (data) => {
+  const handleSubmit = data => {
     addProduct(data)
     closeModal()
   }
 
-  const addProduct = ({ iteName, description, price}) => {
+  const addProduct = ({ iteName, description, price }) => {
     const access_token = localStorage.getItem('access_token')
     axios
       .post(
@@ -158,10 +158,7 @@ export default function Products() {
             onClose={closeModal}
             onSubmit={handleSubmit}
             title={'Add New Product'}
-          >
-            <h2>Modal Content</h2>
-            <p>Modal Body</p>
-          </Modal>
+          ></Modal>
         </div>
         {products ? (
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
