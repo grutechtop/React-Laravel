@@ -38,7 +38,7 @@ export default function Login() {
         })
         localStorage.setItem('user', JSON.stringify(response.data.data))
         localStorage.setItem('access_token', response.data.token)
-        router.push('/products')
+        router.push('/profile')
       })
       .catch(error => {
         toast.error(`${error.message}`, {
