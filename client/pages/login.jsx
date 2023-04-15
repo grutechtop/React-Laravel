@@ -43,7 +43,7 @@ export default function Login() {
       .catch(error => {
         toast.error(`${error.message}`, {
           position: 'top-right',
-          autoClose: 2000,
+          autoClose: 1000,
           pauseOnHover: false,
         })
       })

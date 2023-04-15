@@ -48,7 +48,7 @@ export default function Products() {
       .then(response => {
         toast.success(`${response.data.message}`, {
           position: 'top-right',
-          autoClose: 2000,
+          autoClose: 1000,
           pauseOnHover: false,
         })
         getProducts()
@@ -56,7 +56,7 @@ export default function Products() {
       .catch(error => {
         toast.error(`${error.message}`, {
           position: 'top-right',
-          autoClose: 2000,
+          autoClose: 1000,
           pauseOnHover: false,
         })
       })
@@ -84,7 +84,7 @@ export default function Products() {
       .catch(error => {
         toast.error(`${error.message}`, {
           position: 'top-right',
-          autoClose: 2000,
+          autoClose: 1000,
           pauseOnHover: false,
         })
       })
@@ -110,7 +110,7 @@ export default function Products() {
         .then(response => {
           toast.success(`${response.data.message}`, {
             position: 'top-right',
-            autoClose: 2000,
+            autoClose: 1000,
             pauseOnHover: false,
           })
           getProducts()
@@ -118,7 +118,7 @@ export default function Products() {
         .catch(error => {
           toast.error(`${error.message}`, {
             position: 'top-right',
-            autoClose: 2000,
+            autoClose: 1000,
             pauseOnHover: false,
           })
         })

@@ -39,7 +39,7 @@ export default function Nav() {
         .catch(error => {
           toast.error(`${error.response.data.message}`, {
             position: 'top-right',
-            autoClose: 2000,
+            autoClose: 1000,
             pauseOnHover: false,
           })
         })
